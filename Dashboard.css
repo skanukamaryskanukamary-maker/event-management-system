@@ -1,0 +1,64 @@
+.dashboard {
+  min-height: 100vh;
+  padding: 40px;
+  background: linear-gradient(135deg, #eef7ff, #fdfcff);
+}
+
+.dashboard-title {
+  text-align: center;
+  font-size: 42px;
+  color: #1e3a8a;
+  margin-bottom: 40px;
+}
+
+.dashboard-cards {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 250px;
+  padding: 30px;
+  border-radius: 18px;
+  text-align: center;
+  color: white;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  cursor: pointer;              /* Mouse pointer */
+  transition: all 0.3s ease;    /* Smooth animation */
+}
+
+.card:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+.card:active {
+  transform: scale(0.98);
+}
+
+.card h2 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 22px;
+}
+
+.blue {
+  background: linear-gradient(135deg, #3b82f6, #2563eb);
+}
+
+.green {
+  background: linear-gradient(135deg, #10b981, #059669);
+}
+
+.orange {
+  background: linear-gradient(135deg, #f59e0b, #ea580c);
+}
+
+.purple {
+  background: linear-gradient(135deg, #8b5cf6, #6d28d9);
+}

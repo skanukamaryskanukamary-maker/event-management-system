@@ -1,0 +1,43 @@
+.my-bookings {
+  min-height: 100vh;
+  padding: 40px;
+  background: linear-gradient(135deg, #eef7ff, #fdfcff);
+}
+
+.my-bookings h1 {
+  text-align: center;
+  font-size: 42px;
+  color: #1e3a8a;
+  margin-bottom: 40px;
+}
+
+.booking-card {
+  background: linear-gradient(135deg, #ffffff, #f8fbff);
+  border-left: 8px solid #3b82f6;
+  border-radius: 18px;
+  padding: 25px;
+  margin-bottom: 25px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+  transition: 0.3s;
+}
+
+.booking-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.25);
+}
+
+.booking-card h2 {
+  color: #1e3a8a;
+  margin-bottom: 15px;
+}
+
+.booking-card p {
+  font-size: 18px;
+  margin: 10px 0;
+  color: #333;
+}
+
+.booking-card span {
+  font-weight: bold;
+  color: #2563eb;
+}

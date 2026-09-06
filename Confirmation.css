@@ -1,0 +1,25 @@
+.confirmation-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #eef7ff, #fdfcff);
+}
+
+.confirmation-card {
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.confirmation-card h1 {
+  color: #10b981;
+  margin-bottom: 15px;
+}
+
+.confirmation-card p {
+  font-size: 20px;
+  color: #444;
+}
